@@ -1,0 +1,34 @@
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csprojAssemblyReference.cache
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.LoginPage.resources
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.MainPage.resources
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.Report.resources
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.GenerateResource.cache
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.AssemblyInfoInputs.cache
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.AssemblyInfo.cs
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.CoreCompileInputs.cache
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.exe
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.deps.json
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.runtimeconfig.json
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.runtimeconfig.dev.json
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.dll
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.pdb
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.dll
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.pdb
+C:\Users\KOMPUTER\source\repos\HumanTracker\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.genruntimeconfig.cache
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.exe
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.deps.json
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.runtimeconfig.json
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.runtimeconfig.dev.json
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.dll
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.pdb
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csprojAssemblyReference.cache
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.LoginPage.resources
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.MainPage.resources
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.Report.resources
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.GenerateResource.cache
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.AssemblyInfoInputs.cache
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.AssemblyInfo.cs
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.CoreCompileInputs.cache
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.dll
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.pdb
+D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.genruntimeconfig.cache
