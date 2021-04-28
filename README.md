@@ -10,3 +10,6 @@ Screenshoot aplikasi:
 
 ## Report Page
 ![report](https://user-images.githubusercontent.com/73144184/114256459-94529c80-99e3-11eb-987c-3e36e4b1f91c.png)
+
+### Update 29 April 2021
+Menambahkan database dalam aplikasi untuk kebutuhan penyimpanan data pengunjung yang berada di lokasi serta pengunjung yang telah meninggalkan lokasi.
