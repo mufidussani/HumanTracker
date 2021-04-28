@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -22,6 +23,16 @@ namespace HumanTracker
             listBox_TipePengunjung.Items.Add(new TipePengunjung { Nama = "Petinggi" });
             listBox_TipePengunjung.Items.Add(new TipePengunjung { Nama = "Karyawan" });
             listBox_TipePengunjung.Items.Add(new TipePengunjung { Nama = "Pengunjung Umum" });
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\CODE\HumanTracker Asli\HumanTracker\Database\HumanTrackerDatabase.mdf';Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("SELECT * FROM TabelPengunjung");
+            cmd.Connection = con;
+            SqlDataReader dr = cmd.ExecuteReader();
+            while(dr.Read())
+            {
+                listBox1.Items.Add(dr["Nama"].ToString());
+            }
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -31,6 +42,15 @@ namespace HumanTracker
             p.Tipe = (TipePengunjung)listBox_TipePengunjung.SelectedItem;
 
             listBox_Pengunjung.Items.Add(p);
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\CODE\HumanTracker Asli\HumanTracker\Database\HumanTrackerDatabase.mdf';Integrated Security=True");
+            con.Open();
+            SqlCommand command = new SqlCommand("INSERT INTO TabelPengunjung (Nama) VALUES (@nama)");
+            command.CommandType = CommandType.Text;
+            command.Connection = con;
+            command.Parameters.AddWithValue(@"Nama", p.Nama + " " + p.Tipe + " " + DateTime.Now);
+            command.ExecuteNonQuery();
+            con.Close();
         }
 
         private void listBox_TipePengunjung_SelectedIndexChanged(object sender, EventArgs e)
@@ -113,12 +133,46 @@ namespace HumanTracker
 
         private void listBox_Pengunjung_SelectedIndexChanged_1(object sender, EventArgs e)
         {
+            
+        }
+
+        private void listBox_Pengunjung_SelectedIndexChanged_2(object sender, EventArgs e)
+        {
             if (listBox_Pengunjung.SelectedItem == null) return;
             Pengunjung selected = (Pengunjung)listBox_Pengunjung.SelectedItem;
 
             selected.ExitTime = DateTime.Now;
             lbl_Nama.Text = selected.Nama;
             lblWaktu.Text = selected.Time.ToString();
+        }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+            var b = listBox1.SelectedItem;
+
+            string query = "delete from TabelPengunjung where Nama=@namaa;";
+
+            using (SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='D:\CODE\HumanTracker Asli\HumanTracker\Database\HumanTrackerDatabase.mdf';Integrated Security=True"))
+            {
+                try
+                {
+                    con.Open();
+                    using (SqlTransaction trans = con.BeginTransaction())
+                    {
+                        using (SqlCommand cmd = new SqlCommand(query, con, trans))
+                        {
+                            cmd.Parameters.AddWithValue("@namaa", b);
+                            cmd.ExecuteNonQuery();
+                            trans.Commit();
+                        }
+                        con.Close();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
         }
     }
 }

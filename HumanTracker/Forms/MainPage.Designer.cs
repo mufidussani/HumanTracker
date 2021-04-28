@@ -46,9 +46,13 @@ namespace HumanTracker
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.listBox_Pengunjung = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnHapus = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -124,6 +128,7 @@ namespace HumanTracker
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnHapus);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.btnReport);
             this.groupBox2.Controls.Add(this.lblWaktu);
@@ -148,7 +153,7 @@ namespace HumanTracker
             // 
             // btnReport
             // 
-            this.btnReport.Location = new System.Drawing.Point(119, 132);
+            this.btnReport.Location = new System.Drawing.Point(44, 130);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(75, 23);
             this.btnReport.TabIndex = 6;
@@ -195,7 +200,7 @@ namespace HumanTracker
             this.groupBox3.Controls.Add(this.listBox_Pengunjung);
             this.groupBox3.Location = new System.Drawing.Point(372, 27);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(557, 471);
+            this.groupBox3.Size = new System.Drawing.Size(557, 254);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Daftar Pengunjung";
@@ -204,11 +209,11 @@ namespace HumanTracker
             // 
             this.listBox_Pengunjung.FormattingEnabled = true;
             this.listBox_Pengunjung.ItemHeight = 15;
-            this.listBox_Pengunjung.Location = new System.Drawing.Point(11, 22);
+            this.listBox_Pengunjung.Location = new System.Drawing.Point(6, 19);
             this.listBox_Pengunjung.Name = "listBox_Pengunjung";
-            this.listBox_Pengunjung.Size = new System.Drawing.Size(536, 439);
+            this.listBox_Pengunjung.Size = new System.Drawing.Size(545, 229);
             this.listBox_Pengunjung.TabIndex = 0;
-            this.listBox_Pengunjung.SelectedIndexChanged += new System.EventHandler(this.listBox_Pengunjung_SelectedIndexChanged_1);
+            this.listBox_Pengunjung.SelectedIndexChanged += new System.EventHandler(this.listBox_Pengunjung_SelectedIndexChanged_2);
             // 
             // button1
             // 
@@ -219,11 +224,41 @@ namespace HumanTracker
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.listBox1);
+            this.groupBox4.Location = new System.Drawing.Point(372, 296);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(557, 202);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Pengunjung Sebelumnya";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(6, 19);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(545, 169);
+            this.listBox1.TabIndex = 0;
+            // 
+            // btnHapus
+            // 
+            this.btnHapus.Location = new System.Drawing.Point(149, 130);
+            this.btnHapus.Name = "btnHapus";
+            this.btnHapus.Size = new System.Drawing.Size(167, 23);
+            this.btnHapus.TabIndex = 8;
+            this.btnHapus.Text = "Hapus Daftar Pengunjung";
+            this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(941, 510);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -237,6 +272,7 @@ namespace HumanTracker
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -260,5 +296,8 @@ namespace HumanTracker
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox listBox_Pengunjung;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnHapus;
     }
 }
