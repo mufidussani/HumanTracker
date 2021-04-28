@@ -1,5 +1,5 @@
 # HumanTracker
-HumanTracker adalah aplikasi untuk mencatat seluruh pengunjung serta lamanya waktu berkunjung dalam suatu tempat. Untuk melakukan demo aplikasi, masukkan username : mufidussani dan password : 123456
+HumanTracker adalah aplikasi untuk mencatat seluruh pengunjung serta lamanya waktu berkunjung dalam suatu tempat. Untuk melakukan demo aplikasi, masukkan username = mufidussani dan password = 123456 (akun lain : username = paijo , password = hiya)
 
 Screenshoot aplikasi:
 ## Login Page
