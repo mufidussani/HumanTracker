@@ -32,3 +32,29 @@ D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\
 D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.dll
 D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.pdb
 D:\KULIAH\SEMESTER 2\PEMROGRAMAN BERORIENTASI OBJEK\UTS\backup\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.genruntimeconfig.cache
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.exe
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.deps.json
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.runtimeconfig.json
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.runtimeconfig.dev.json
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\HumanTracker.pdb
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csprojAssemblyReference.cache
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.LoginPage.resources
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.MainPage.resources
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.Report.resources
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.GenerateResource.cache
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.AssemblyInfoInputs.cache
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.AssemblyInfo.cs
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.CoreCompileInputs.cache
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.csproj.CopyComplete
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.dll
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.pdb
+D:\CODE\HumanTracker Asli\HumanTracker\obj\Debug\netcoreapp3.1\HumanTracker.genruntimeconfig.cache
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\EPPlus.Core.dll
+D:\CODE\HumanTracker Asli\HumanTracker\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll

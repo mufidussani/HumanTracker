@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HumanTracker
 {
@@ -25,7 +23,7 @@ namespace HumanTracker
             get
             {
                 TimeSpan diff = (ExitTime - EntranceTime);
-                if (diff - TimeSpan.FromMinutes((int)diff.TotalMinutes)>TimeSpan.Zero)
+                if (diff - TimeSpan.FromMinutes((int)diff.TotalMinutes) > TimeSpan.Zero)
                 {
                     diff = diff.Add(TimeSpan.FromMinutes(1));
                 }
@@ -35,8 +33,7 @@ namespace HumanTracker
 
         public override string ToString()
         {
-            return string.Format("{0} -- {1} -- {2}", Nama, Tipe, DateTime.Now.ToString());
+            return string.Format("{0} {1} {2}", Nama, Tipe, DateTime.Now);
         }
-
     }
 }
