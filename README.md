@@ -1,7 +1,11 @@
-# HumanTracker
+# HumanTracker - Pemrograman Berorientasi Objek
+Nama : Mufidus Sani
+NIM : 20/463608/TK/51600
+
+# Deskripsi Aplikasi
 HumanTracker adalah aplikasi untuk mencatat seluruh pengunjung serta lamanya waktu berkunjung dalam suatu tempat. Untuk melakukan demo aplikasi, masukkan username = mufidussani dan password = 123456 (akun lain : username = paijo , password = hiya)
 
-Screenshoot aplikasi:
+# Screenshoot aplikasi:
 ## Login Page
 ![loginpage](https://user-images.githubusercontent.com/73144184/114256457-9288d900-99e3-11eb-9940-eb208a231f1c.png)
 
